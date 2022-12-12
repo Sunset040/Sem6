@@ -60,7 +60,6 @@ def initGame():
     pointsFinded = []
     mapComputer = generateComputerMap(mapComputer, matrix, points)
     isGame = True
-    showMap(mapComputer)
 
     while isGame:
         x = int(input("Кордината X: ") or 0)
